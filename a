@@ -6,17 +6,17 @@ truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --d
 
 truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa3 --model-name aaa3
 
-truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa --model-name aaa4
+truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa4 --model-name aaa4
 
-truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa --model-name aaa5
+truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa5 --model-name aaa5
 
-truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa --model-name aaa6
+truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa6 --model-name aaa6
 
-truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa --model-name aaa7
+truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa7 --model-name aaa7
 
-truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa --model-name aaa8
+truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa8 --model-name aaa8
 
-truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa --model-name aaa9
+truss push --no-wait --timeout-seconds 1000000 --deploy-timeout-minutes 1440 --deployment-name aaa9 --model-name aaa9
 
 while true; do
 baseten model deployment activate --deployment-name aaa --model-name aaa
