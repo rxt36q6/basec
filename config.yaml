@@ -5,5 +5,4 @@ python_version: py39
 resources:
   accelerator: null
   cpu: '16'
-  memory: 64Gi
   use_gpu: false
